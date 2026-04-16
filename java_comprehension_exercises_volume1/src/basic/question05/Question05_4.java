@@ -16,11 +16,11 @@ public class Question05_4 {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		System.out.println("数学の試験結果の点数を入力してください。");
+		System.out.print("数学の試験結果の点数を入力してください。");
 		String math_str = br.readLine();
 		int math = Integer.parseInt(math_str);
 
-		System.out.println("国語の試験結果の点数を入力してください。");
+		System.out.print("国語の試験結果の点数を入力してください。");
 		String japanese_str = br.readLine();
 		int japanese = Integer.parseInt(japanese_str);
 
