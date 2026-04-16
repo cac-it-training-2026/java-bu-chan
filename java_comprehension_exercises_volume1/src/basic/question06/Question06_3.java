@@ -22,7 +22,7 @@ public class Question06_3 {
 		while (buyFalg == 0) {
 			amount++;
 			System.out.println("購入する鉛筆の本数を１つ増やしますか？");
-			System.out.println("はい：0、いいえ：1＞");
+			System.out.print("はい：0、いいえ：1＞");
 			buyFlag_str = br.readLine();
 			buyFalg = Integer.parseInt(buyFlag_str);
 		}
