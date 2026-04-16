@@ -19,7 +19,7 @@ public class Question06_4 {
 		do {
 			amountBooks++;
 			System.out.println("売却する本の冊数を１つ増やしますか？");
-			System.out.println("はい：0、いいえ：1＞");
+			System.out.print("はい：0、いいえ：1＞");
 			String sellFlag_str = br.readLine();
 			sellFlag = Integer.parseInt(sellFlag_str);
 
